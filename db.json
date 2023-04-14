@@ -1,11 +1,46 @@
 {
   "clientes": [
     {
-      "nombre": "Aldahir Mayorga",
-      "email": "correo2@correo.com",
-      "telefono": "12",
-      "empresa": "12212",
-      "id": 26
+      "nombre": "Aldahir",
+      "email": "samg.25sep@gmail.com",
+      "telefono": "7747400028",
+      "empresa": "Globant",
+      "id": 1
+    },
+    {
+      "nombre": "Carmen",
+      "email": "carmen@correo.com",
+      "telefono": "000000",
+      "empresa": "Globant",
+      "id": 2
+    },
+    {
+      "nombre": "Fernando",
+      "email": "fernando@gmail.com",
+      "telefono": "9039023920",
+      "empresa": "Utsh",
+      "id": 3
+    },
+    {
+      "nombre": "Maria",
+      "email": "maria@gmail.com",
+      "telefono": "123124124",
+      "empresa": "Nestle",
+      "id": 4
+    },
+    {
+      "nombre": "José",
+      "email": "jose@gmail.com",
+      "telefono": "921929132",
+      "empresa": "Coca-Cola",
+      "id": 5
+    },
+    {
+      "nombre": "Hugo",
+      "email": "hugo@hotmail.com",
+      "telefono": "12312313",
+      "empresa": "Grupo Pepsico",
+      "id": 6
     }
   ]
 }
