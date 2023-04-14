@@ -6,6 +6,20 @@
       "telefono": "9090",
       "empresa": "Globant",
       "id": 1
+    },
+    {
+      "nombre": "Carmen",
+      "email": "carmen@correo.com",
+      "telefono": "000000",
+      "empresa": "Globant",
+      "id": 2
+    },
+    {
+      "nombre": "Miguel",
+      "email": "miguel@correo.com",
+      "telefono": "90909090",
+      "empresa": "Utsh",
+      "id": 3
     }
   ]
 }
