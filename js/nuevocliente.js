@@ -1,4 +1,4 @@
-import { mostrarAlerta} from './funciones.js'
+import { mostrarAlerta , validarCamposVacios} from './funciones.js'
 import {nuevoCliente} from './API.js'
 
 (function () {
@@ -33,18 +33,7 @@ import {nuevoCliente} from './API.js'
         nuevoCliente(cliente);
     }
 
-    function validarCamposVacios(objeto) {
 
-        /* 
-            Verifica si todos los campos no son string vacios
-
-            Object.values(nombreOBjetoARevisarValores)
-            .every(input => { ---> checa cada uno de los valores
-                return input !==''; ---> Devuelve booleano si input es diferente de un '';
-            })  
-        */
-       return !Object.values(objeto).every(input =>input !== '')
-    }
 
 
 })();

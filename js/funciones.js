@@ -20,3 +20,16 @@ export function mostrarAlerta(mensaje){
         }, 3000);
     }
 }
+
+export function validarCamposVacios(objeto) {
+
+    /* 
+        Verifica si todos los campos no son string vacios
+
+        Object.values(nombreOBjetoARevisarValores)
+        .every(input => { ---> checa cada uno de los valores
+            return input !==''; ---> Devuelve booleano si input es diferente de un '';
+        })  
+    */
+   return !Object.values(objeto).every(input =>input !== '')
+}
